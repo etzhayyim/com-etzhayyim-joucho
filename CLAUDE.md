@@ -70,6 +70,20 @@ joucho_score (0-100) = Σ (axis_weight × axis_score)
 - Export: `etzhayyim:joucho/scoring@1.0.0`
 - Import: `kotodama:div/health`, `kotodama:div/recreation`, `kotodama:contract/agreement`
 
+## Key Files
+
+| File | Role |
+|---|---|
+| `src/com/etzhayyim/joucho/murakumo.cljc` | Religious-corp cljc actor boundary migrated from legacy `kotoba.primitives.joucho_murakumo` |
+| `test/com/etzhayyim/joucho/murakumo_test.cljc` | Pure cljc tests for kyumei signal aggregation and MST effect shape |
+
+## Migration Boundary
+
+`kotoba-lang/kotoba/crates/kotoba-kotodama/py/src/kotodama/primitives/joucho_murakumo.py`
+is legacy source during migration. New domain actor logic belongs here as `.cljc`;
+host placement remains in `kotoba-lang/murakumo`, and AT Protocol/PDS surfaces remain
+in `gftdcojp/app-aozora`.
+
 ## Follow Graph (2 次ソース)
 
 | Upstream | 受信データ | 用途 |
