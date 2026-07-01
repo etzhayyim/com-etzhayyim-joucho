@@ -79,7 +79,7 @@ joucho_score (0-100) = Σ (axis_weight × axis_score)
 
 ## Migration Boundary
 
-`kotoba-lang/kotoba/crates/kotoba-kotodama/py/src/kotodama/primitives/joucho_murakumo.py`
+`kotoba-lang/kotodama-py/src/kotodama/primitives/joucho_murakumo.py`
 is legacy source during migration. New domain actor logic belongs here as `.cljc`;
 host placement remains in `kotoba-lang/murakumo`, and AT Protocol/PDS surfaces remain
 in `gftdcojp/app-aozora`.
