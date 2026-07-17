@@ -2,6 +2,7 @@
  :repository "etzhayyim/com-etzhayyim-joucho"
  :classification :actor
  :canonical-actor-metadata "manifest.edn"
+ :canonical-identity-metadata "identity.edn"
  :canonical-data-format :edn
  :dependencies []
  :external-wire-formats #{:atproto-json :json-ld}

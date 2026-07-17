@@ -1,0 +1,14 @@
+{:identity/did "did:web:etzhayyim.com:actor:joucho"
+ :identity/also-known-as ["at://joucho.etzhayyim.com"
+                          "https://github.com/etzhayyim/com-etzhayyim-joucho"
+                          "rad:bafkreiczf2ea4yvs53uqyxl6lqt3iibo3g3ujslmkshwo6befrlp6oaoqa"
+                          "did:web:etzhayyim.github.io:com-etzhayyim-joucho"]
+ :identity/services
+ [{:service/id "did:web:etzhayyim.com:actor:joucho#atproto_pds"
+   :service/type "AtprotoPersonalDataServer"
+   :service/endpoint "https://pds.etzhayyim.com"}
+  {:service/id "did:web:etzhayyim.com:actor:joucho#aozora"
+   :service/type "AozoraAppView"
+   :service/endpoint "https://aozora.app"}]
+ :identity/wire-artifact ".well-known/did.json"
+ :identity/wire-format :did-json}
