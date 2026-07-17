@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "test": "nbb --classpath src:test run_tests.cljs",
     "task": "nbb scripts/run-task.cljs",
     "tasks": "nbb scripts/run-task.cljs"
   }

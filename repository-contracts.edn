@@ -1,0 +1,8 @@
+{:schema-version 1
+ :repository "etzhayyim/com-etzhayyim-joucho"
+ :classification :actor
+ :canonical-actor-metadata "manifest.edn"
+ :canonical-data-format :edn
+ :dependencies []
+ :external-wire-formats #{:atproto-json :json-ld}
+ :tests {:command ["npx" "nbb" "--classpath" "src:test" "run_tests.cljs"]}}
